@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird Fan Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="flappy-bird-logo.png" alt="Flappy Bird Logo">
+            <h1>Flappy Bird Fan Hub</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#how-to-play">How to Play</a></li>
+                <li><a href="#high-scores">High Scores</a></li>
+                <li><a href="#download">Download</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="banner">
+            <h2>Welcome to Flappy Bird Fan Hub</h2>
+            <p>Relive the fun of this iconic, addictive game that captured the hearts of millions!</p>
+            <a href="#download" class="btn">Play Now</a>
+        </section>
+
+        <section id="about">
+            <h2>About Flappy Bird</h2>
+            <p>Flappy Bird is a simple yet challenging game where players guide a bird through a series of obstacles. Created by Dong Nguyen, it became a global sensation in 2013 for its addictive gameplay.</p>
+        </section>
+
+        <section id="how-to-play">
+            <h2>How to Play</h2>
+            <ol>
+                <li>Tap the screen or click to make the bird flap its wings.</li>
+                <li>Avoid hitting the pipes and ground.</li>
+                <li>Try to get the highest score possible!</li>
+            </ol>
+        </section>
+
+        <section id="high-scores">
+            <h2>High Scores</h2>
+            <p>Submit your best score to be featured here!</p>
+        </section>
+
+        <section id="download">
+            <h2>Download Flappy Bird</h2>
+            <p>Play the original game or try fan-made versions. <a href="#">Download here</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Flappy Bird Fan Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
